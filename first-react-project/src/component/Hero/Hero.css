@@ -1,0 +1,198 @@
+.hero-section{
+    overflow: hidden;
+}
+.sec-wrapper {
+  background-color: #384bff;
+  position: relative;
+  color: white;
+  height: 100vh;
+  overflow: hidden;
+}
+.hero-content {
+  padding-top: 50px;
+  display: flex;
+}
+
+span {
+  padding: 40px 60px;
+  border: 1px solid white;
+  border-radius: 30%;
+  -webkit-border-radius: 30%;
+  -moz-border-radius: 30%;
+  -ms-border-radius: 30%;
+  -o-border-radius: 30%;
+  text-align: center;
+}
+.hero-title {
+  width: 60%;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+ul {
+  list-style-type: none;
+}
+
+.hero-features {
+  display: flex;
+  gap: 20px;
+  line-height: 1.8;
+  font-size: 1.2rem;
+  margin-right: 50px;
+}
+
+.hero-images {
+  position: relative;
+  display: flex;
+}
+.hero-shape img {
+  position: absolute;
+  transform: translateY(30%) translateX(-10%);
+  -webkit-transform: translateY(30%) translateX(-10%);
+  -moz-transform: translateY(30%) translateX(-10%);
+  -ms-transform: translateY(30%) translateX(-10%);
+  -o-transform: translateY(30%) translateX(-10%);
+}
+
+.hero-thumb img {
+  position: absolute;
+  transform: translateY(-10%) translateX(-40%);
+  -webkit-transform: translateY(-10%) translateX(-40%);
+  -moz-transform: translateY(-10%) translateX(-40%);
+  -ms-transform: translateY(-10%) translateX(-40%);
+  -o-transform: translateY(-10%) translateX(-40%);
+}
+.trust-section {
+  display: flex;
+  gap: 20px;
+  width: 70%;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.26);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  transform: translateY(70%);
+  -webkit-transform: translateY(70%);
+  -moz-transform: translateY(70%);
+  -ms-transform: translateY(70%);
+  -o-transform: translateY(70%);
+}
+.separator {
+  width: 1px;
+  height: 85px;
+  background-color: rgba(255, 255, 255, 0.705);
+  margin: 0 10px;
+}
+.cta-btn {
+  padding: 12px 35px;
+  background-color: #f98600;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  margin: 20px 0;
+}
+.vew-img {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* ************************************************************************** */
+
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-shape {
+    display: none;
+  }
+
+  .hero-thumb img {
+    /* height: 60vh;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    position: static;
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none; */
+    display: none;
+  }
+
+  .hero-title,
+  .hero-features,
+  .trust-section {
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .hero-features {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .trust-section {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+
+  .separator {
+    width: 120px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.705);
+    margin: 0 10px;
+  }
+
+  .cta-btn {
+    padding: 10px 25px;
+    font-size: 1rem;
+  }
+}
+/* ************************************************************************************ */
+.circle img{
+   border: 10px solid white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: white;
+    right: 50%;
+    transform: translateX(50%) translateY(-50%);
+    -webkit-transform: translateX(50%) translateY(-50%);
+    -moz-transform: translateX(50%) translateY(-50%);
+    -ms-transform: translateX(50%) translateY(-50%);
+    -o-transform: translateX(50%) translateY(-50%);
+}
+.brand {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgb(155, 154, 154);
+}
+.brand-content {
+  display: flex;
+  gap: 25px;
+}
+ 
+@media (max-width: 768px) {
+    .circle img{
+        display: none;
+    } 
+    .brand-content{
+        flex-direction: column;
+    } 
+}

@@ -1,0 +1,108 @@
+.service-title {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .wrapp p {
+    font-size: 1.2rem;
+    color: #384bff;
+  }
+  
+  .service-wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+  }
+  
+  .service-title h1 {
+    width: 50%;
+    padding-bottom: 30px;
+  }
+  
+  .service-title .icon {
+    font-size: 1.5rem;
+    color: #384bff;
+  }
+  
+  .cardat {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+    border-radius: 20px;
+  }
+  
+  .cardat .card {
+    flex: 1 1 250px;
+    background-color: #f3f7fb;
+    padding: 20px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+  
+  .cardat .card .card-icon {
+    font-size: 1.8rem;
+    color: #384bff;
+    border: 1px solid rgb(173, 173, 173);
+    padding: 10px;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    margin-bottom: 15px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    text-align: left;
+}
+  
+  .cardat .card a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid #333;
+    margin-top: 10px;
+    display: inline-block;
+    width: auto;
+  }
+  
+  .card-title {
+    color: #333;
+    padding: 15px 0;
+    font-size: 1.5rem;
+  }
+  
+  .cardat .card-description {
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .cardat {
+      flex-direction: column;
+    }
+  
+    .service-title h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .cardat .card {
+      width: 100%;
+    }
+    
+  .service-title .icon {
+  display: none;
+  }
+  
+    
+  }
+  

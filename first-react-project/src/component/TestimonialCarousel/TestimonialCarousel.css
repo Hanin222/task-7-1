@@ -1,0 +1,62 @@
+.testimonial-cards-container {
+  display: flex;
+  justify-content: space-between;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  border: none;
+}
+.str-testi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  flex-direction: column;
+  padding: 20px;
+}
+.icon-testi {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+.icon-testi img {
+  width: 20%;
+  padding: 10px;
+}
+
+.testi-name {
+  font-weight: bold;
+}
+.descrp-testi {
+  line-height: 0.2;
+  transform: translateX(-30%) translateY(20%);
+}
+.quote-icon {
+  color: gray;
+  font-size: 1.5rem;
+}
+
+.rating {
+  color: goldenrod;
+  font-size: 1.5rem;
+  line-height: 2.1;
+}
+.text {
+  color: #5a5a5a;
+}
+
+@media (max-width: 768px) {
+  .cards {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .cards {
+        flex-wrap: wrap;
+        flex-direction: column;
+      }
+}

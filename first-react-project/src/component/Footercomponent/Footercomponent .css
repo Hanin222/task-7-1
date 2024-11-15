@@ -1,0 +1,166 @@
+.footer-wrapper {
+  background-color: #18185e;
+  color: #ffffff;
+  padding: 40px 20px;
+  text-align: left;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-section {
+  flex: 1 1 250px;
+  margin-bottom: 20px;
+}
+
+.footer-logo {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.quick-links {
+  margin-left: 50px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.social-icons a {
+  color: #ffffff;
+  margin-right: 10px;
+  font-size: 18px;
+}
+.social-icons i {
+  padding: 8px;
+  border: 1px solid white;
+}
+
+.recent-posts .post {
+  /* margin-bottom: 10px; */
+  display: flex;
+  gap: 10px;
+}
+
+.recent-posts .post i {
+  margin-right: 5px;
+}
+
+.text-fo{
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.email-subscription {
+  display: flex;
+  margin-top: 10px;
+}
+
+.email-subscription input {
+  padding: 8px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+.email-subscription button {
+  background-color: #384bff;
+  color: #ffffff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+}
+
+.privacy-checkbox {
+  font-size: 12px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.privacy-checkbox input {
+  margin-right: 5px;
+}
+
+.footer-bottom {
+  text-align: center;
+  background-color: #384bff;
+  padding: 10px 0;
+  color: white;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.footer-bottom ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 5px 0 0;
+}
+
+.footer-bottom ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-bottom ul li a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-section {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .email-subscription {
+    flex-direction: column;
+  }
+
+  .email-subscription input,
+  .email-subscription button {
+    width: 100%;
+    border-radius: 4px;
+    margin: 5px 0;
+  }
+
+  .footer-bottom ul {
+    flex-direction: column;
+  }
+}
+
